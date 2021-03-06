@@ -1,6 +1,9 @@
 /* ----------font----------*/
 
 /* ----------colors----------*/
+.sitename-color{
+    background-color: aqua;
+}
 
 .menu-color-home{
     background-color: blue;
@@ -27,7 +30,9 @@
 
 
 /* ----------Nav-bar----------*/
-
+.sitename{
+    text-align: center;
+}
 
 .menu-button{
     height: 120px;
