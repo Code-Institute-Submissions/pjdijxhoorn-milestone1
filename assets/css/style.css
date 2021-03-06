@@ -6,7 +6,7 @@
 }
 
 .menu-color-home{
-    background-color: blue;
+    background-color: orange;
 }
 
 .menu-color-resume{
@@ -14,7 +14,7 @@
 }
 
 .menu-color-work{
-    background-color: blue;
+    background-color: orange;
 }
 
 .menu-color-projects{
@@ -22,7 +22,7 @@
 }
 
 .menu-color-contact{
-    background-color: blue;
+    background-color: orange;
 }
 
 .menu-color-download{
@@ -34,6 +34,19 @@
     text-align: center;
 }
 
+.list-inline-item:not(:last-child){
+    margin: 0;
+}
+
+.menucontainer{
+ font-size: 0;
+}
+
+#nav li{
+    font-size: 14px;
+    padding: 0;
+}
+
 .menu-button{
     height: 120px;
     text-align: center;
@@ -42,21 +55,31 @@
 
 .menu-button a{
     width: 100%;
+    text-decoration: none;
+    color: aliceblue;
     height: 120px;
 }
 
-.list-inline-item:not(:last-child){
-    margin: 0;
+.menu-button a i{
+    padding: 22px;
+    display: block;
+    color: aliceblue;
+    font-size: 26px;
 }
 
-
-
-.menucontainer{
- font-size: 0;
-}
-
-#nav li{
+.menu-button span{
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
     font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
+/* ----------hover.css----------*/
 
-/* ----------colors----------*/
+.hvr-sweep-to-bottom:before{
+    background-color: rgba(0,0,0, 0.2);
+    height: 120px;
+}
