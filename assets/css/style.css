@@ -2,36 +2,41 @@
 
 /* ----------colors----------*/
 .sitename-color{
-    background-color: aqua;
+    background-color:#2A3A3E;
 }
 
 .menu-color-home{
-    background-color: orange;
+    background-color: #3A645D;
 }
 
 .menu-color-resume{
-    background-color: blue;
+    background-color: #B3D77A;
 }
 
 .menu-color-work{
-    background-color: orange;
+    background-color: #F5CD4D;
 }
 
 .menu-color-projects{
-    background-color: blue;
+    background-color: #E27C3F;
 }
 
 .menu-color-contact{
-    background-color: orange;
+    background-color: #D8464C;
 }
 
 .menu-color-download{
-    background-color: blue;}
-
+    background-color: #2BA2DC;
+}
 
 /* ----------Nav-bar----------*/
 .sitename{
     text-align: center;
+}
+.sitename h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: aliceblue;
 }
 
 .list-inline-item:not(:last-child){
@@ -82,4 +87,13 @@
 .hvr-sweep-to-bottom:before{
     background-color: rgba(0,0,0, 0.2);
     height: 120px;
+}
+
+/* ----------footer----------*/
+
+.footer{
+    background-color: #2A3A3E;
+    min-height: 120px;
+    color: aliceblue;
+    margin: 0;
 }
