@@ -30,6 +30,17 @@
 }
 
 /* ----------Nav-bar----------*/
+.row{
+    bs-gutter-x: 0;
+}
+
+.hero-image{
+    display: block;
+    height: 240px;
+    background-color: #123;
+}
+
+
 .sitename{
     text-align: center;
 }
@@ -89,11 +100,20 @@
     height: 120px;
 }
 
+.hvr-fade:active, .hvr-fade:focus, .hvr-fade:hover{
+    background-color: rgba(0,0,0, 0.2) ;
+    height: 120px;
+}
+
 /* ----------footer----------*/
 
 .footer{
+    min-height: 120px;
+
+}
+
+.footer-bar{
     background-color: #2A3A3E;
     min-height: 120px;
     color: aliceblue;
-    margin: 0;
 }
