@@ -30,19 +30,28 @@
 }
 
 /* ----------Nav-bar----------*/
-.row{
-    bs-gutter-x: 0;
+
+header{
+    height:220px;
+}
+
+.hero-image-container {
+    display: block;
+    background-color: #123;
+    height: 240px;
+    width: 100%;
 }
 
 .hero-image{
     display: block;
-    height: 240px;
     background-color: #123;
+    height: 240px;
+    width: 100%;
 }
-
 
 .sitename{
     text-align: center;
+    height: 100px;
 }
 .sitename h1{
     text-transform: uppercase;
@@ -116,4 +125,7 @@
     background-color: #2A3A3E;
     min-height: 120px;
     color: aliceblue;
+    position: relative;
+    bottom: 0px;
 }
+.row
