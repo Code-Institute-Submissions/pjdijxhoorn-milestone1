@@ -45,7 +45,6 @@ header{
 .hero-image{
     display: block;
     background-color: #123;
-    height: 240px;
     width: 100%;
 }
 
@@ -121,17 +120,22 @@ header{
     height: 120px;
 }
 
-/* ----------footer----------*/
+/* ----------content-block----------*/
+.content-block{
+    background-color: #2A3A3E;
+}
 
-.footer{
-    min-height: 120px;
+
+
+/* ----------footer----------*/
+footer{
+    bottom: 0px;
+    position: absolute;
+
 }
 
 .footer-bar{
     background-color: #2A3A3E;
     min-height: 120px;
-    color: aliceblue;
-    position: relative;
-    bottom: 0px;
+
 }
-.row
