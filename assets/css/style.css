@@ -1,3 +1,17 @@
+.body{
+    position: relative;
+    min-height: 1200px;
+    width: 100%;
+
+
+
+} /* min height is to set the footer*/
+
+.row{
+    --bs-gutter-x: 0;
+}
+
+
 /* ----------font----------*/
 
 /* ----------colors----------*/
@@ -31,6 +45,7 @@
 
 /* ----------Nav-bar----------*/
 
+
 header{
     height:220px;
 }
@@ -38,7 +53,6 @@ header{
 .hero-image-container {
     display: block;
     background-color: #123;
-    height: 240px;
     width: 100%;
 }
 
@@ -71,6 +85,9 @@ header{
 
 .menucontainer{
  font-size: 0;
+}
+.nav{
+ margin: 0;
 }
 
 #nav li{
@@ -131,11 +148,24 @@ header{
 footer{
     bottom: 0px;
     position: absolute;
-
+    width: 100%;
 }
 
 .footer-bar{
     background-color: #2A3A3E;
     min-height: 120px;
+}
+.social-links{
+    height: 120px;
+    padding: 0;
 
 }
+.social-links li a i{
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+    border-radius: 50%;
+    text-align: center;
+    color: aliceblue;
+}
+
