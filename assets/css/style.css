@@ -20,7 +20,14 @@
 }
 
 .menu-color-home{
-    background-color: #3A645D;
+    background-color: rgb(58,100,93);
+}
+.sidebar-color{
+    background-color: #e84610;
+}
+
+.content-block-home{
+    background-color: rgba(58,100,93,0.9);
 }
 
 .menu-color-resume{
@@ -43,12 +50,9 @@
     background-color: #2BA2DC;
 }
 
-/* ----------Nav-bar----------*/
 
+/* ----------hero-image----------*/
 
-header{
-    height:220px;
-}
 
 .hero-image-container {
     display: block;
@@ -59,14 +63,19 @@ header{
 .hero-image{
    max-height: 240px;
 
-
 }
 
 .hero-image2{
     display: block;
     background-color: #123;
-    height: 400px;
+
     width: 100%;
+}
+
+/* ----------Nav-bar----------*/
+
+header{
+    height:220px;
 }
 
 .sitename{
@@ -136,17 +145,21 @@ header{
     background-color: rgba(0,0,0, 0.2) ;
     height: 120px;
 }
+/* ----------hover.css----------*/
+.sidebar{
+    height: 580px;
+}
 
 /* ----------content-block----------*/
 .content-block{
-    background-color: #2A3A3E;
-}
+    height: 860px;
+    bottom: 120px;}
 
 
 
 /* ----------footer----------*/
 footer{
-    bottom: 0px;
+    bottom: 0;
     position: absolute;
     width: 100%;
 }
