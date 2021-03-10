@@ -1,15 +1,8 @@
 .body{
     position: relative;
-    min-height: 1200px;
-    width: 100%;
-
-
-
-} /* min height is to set the footer*/
-
-.row{
-    --bs-gutter-x: 0;
+    height: 1200px;
 }
+
 
 
 /* ----------font----------*/
@@ -53,9 +46,7 @@
 
 /* ----------hero-image----------*/
 
-
 .hero-image-container {
-    display: block;
     background-color: #123;
     width: 100%;
 }
@@ -96,7 +87,7 @@ header{
  font-size: 0;
 }
 .nav{
- margin: 0;
+
 }
 
 #nav li{
@@ -145,23 +136,11 @@ header{
     background-color: rgba(0,0,0, 0.2) ;
     height: 120px;
 }
-/* ----------hover.css----------*/
-.sidebar{
-    height: 580px;
-}
-
-/* ----------content-block----------*/
-.content-block{
-    height: 860px;
-    bottom: 120px;}
-
-
 
 /* ----------footer----------*/
 footer{
     bottom: 0;
     position: absolute;
-    width: 100%;
 }
 
 .footer-bar{
@@ -200,4 +179,53 @@ footer{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+/* ----------sidebar----------*/
 
+.hc-block{
+   }
+
+.sidebar{
+    height: 860px;
+
+
+}
+
+
+
+
+/* ----------content-block----------*/
+.content-block {
+ height: 860px;
+}
+
+
+
+.row{
+    --bs-gutter-x: 0;}
+
+/* ----------media queries----------*/
+@media only screen and (max-width: 1024px) {
+    .hc-block {
+      padding-top: 120px;
+    }
+    .body{
+        position: relative;
+        height: 1000px;
+    }
+    .sidebar, .content-block{
+        height: 660px;}
+}
+
+@media only screen and (max-width: 767px) {
+    .hc-block {
+        padding-top: 480px;
+    }
+    .body{
+        position: relative;
+        height: 2335px;
+    }
+    .content-block{
+        height: 860px;}
+
+
+}
