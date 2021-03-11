@@ -16,7 +16,7 @@
     background-color: rgb(58,100,93);
 }
 .sidebar-color{
-    background-color: #e84610;
+    background-color: #112233;
 }
 
 .content-block-home{
@@ -24,19 +24,31 @@
 }
 
 .menu-color-resume{
-    background-color: #B3D77A;
+    background-color: rgb(179,215,122);}
+
+.content-block-resume{
+    background-color: rgba(179,215,122,0.9);
 }
 
 .menu-color-work{
-    background-color: #F5CD4D;
+    background-color: rgb(245,205,77);
+}
+.content-block-work{
+    background-color: rgba(245,205,77,0.9);
 }
 
 .menu-color-projects{
-    background-color: #E27C3F;
+    background-color: rgb(226,124,63);
 }
 
+.content-block-projects{
+    background-color: rgba(226,124,63,0.9);
+}
 .menu-color-contact{
-    background-color: #D8464C;
+    background-color: rgb(216, 70, 76);
+}
+.content-block-contact{
+    background-color: rgba(216, 70, 76, 0.9);
 }
 
 .menu-color-download{
@@ -59,7 +71,6 @@
 .hero-image2{
     display: block;
     background-color: #123;
-
     width: 100%;
 }
 
