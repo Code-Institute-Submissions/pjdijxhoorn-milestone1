@@ -91,7 +91,7 @@
 
 
 .nav-bar ul{
-    margin-bottom: 0px;
+    margin-bottom:0;
 }
 
 #nav li{
@@ -188,27 +188,27 @@
 .sidebar-text h3{
     color: aliceblue;
     text-transform: uppercase;
-    text-align:center;
     padding-bottom: 20px;
+    padding-left: 20px;
 }
  .sidebar-text h5{
      color: aliceblue;
      font-weight: bold;
-     padding-left: 20px;
+     padding: 0 20px;
 
  }
 .sidebar-text p{
     color: aliceblue;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding:0 20px 20px 20px;
 
 }
 
 
 /* ----------content-block----------*/
-
-
-
+.content-block h3, p{
+    color: aliceblue;
+    padding-top: 20px;
+}
 
 .row{
     --bs-gutter-x: 0;}
@@ -240,13 +240,33 @@ form label{
     color: aliceblue;
     background-color: rgba(216, 70, 76, 0.99);
 }
+/* ----------skills----------*/
+.progress-bar-container{
+    padding: 20px 20px;
+}
+
+.progress{
+    position: relative;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.progress-type{
+    position: absolute;
+    left: 0;
+    padding: 5px 30px 5px 10px;
+    color: aliceblue;
+    background-color: rgba(25,25,25,0.2);
+}
 
 /* ----------media queries----------*/
-@media only screen and (max-width: 1024px) {.hero-image{
-    max-height: 240px;}
+@media only screen and (max-width: 1024px){
+    .hero-image{ height: 240px}
 }
 
 @media only screen and (max-width: 767px) {
 
 }
 
+
+.carousel{ padding: 20px 20px}
