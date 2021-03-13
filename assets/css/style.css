@@ -54,7 +54,14 @@
 .menu-color-download{
     background-color: #2BA2DC;
 }
+/* ----------styling----------*/
 
+.uppercase{
+    text-transform: uppercase;
+}
+.center{
+    text-align: center;
+}
 
 /* ----------hero-image----------*/
 
@@ -85,7 +92,6 @@ header{
     height: 100px;
 }
 .sitename h1{
-    text-transform: uppercase;
     letter-spacing: 2px;
     color: aliceblue;
 }
@@ -197,22 +203,48 @@ footer{
 
 .sidebar{
     height: 860px;
+}
+.sidebar-text h3{
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align:center;
+    padding-bottom: 20px;
+}
+ .sidebar-text h5{
+     color: aliceblue;
+     font-weight: bold;
+     padding-left: 20px;
 
+ }
+.sidebar-text p{
+    color: aliceblue;
+    padding-left: 20px;
+    padding-bottom: 20px;
 
 }
-
-
 
 
 /* ----------content-block----------*/
-.content-block {
- height: 860px;
-}
+
 
 
 
 .row{
     --bs-gutter-x: 0;}
+/* ----------content-form----------*/
+.form-heading{
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form-text{
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
 
 /* ----------media queries----------*/
 @media only screen and (max-width: 1024px) {
@@ -235,8 +267,4 @@ footer{
         position: relative;
         height: 2335px;
     }
-    .content-block{
-        height: 860px;}
-
-
-}
+    .content-block{}
