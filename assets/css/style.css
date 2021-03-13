@@ -1,8 +1,3 @@
-.body{
-    position: relative;
-    height: 1200px;
-}
-
 
 
 /* ----------font----------*/
@@ -67,13 +62,8 @@
 
 .hero-image-container {
     background-color: #123;
-    width: 100%;
 }
 
-.hero-image{
-   max-height: 240px;
-
-}
 
 .hero-image2{
     display: block;
@@ -82,11 +72,6 @@
 }
 
 /* ----------Nav-bar----------*/
-
-header{
-    height:220px;
-}
-
 .sitename{
     text-align: center;
     height: 100px;
@@ -103,8 +88,10 @@ header{
 .menucontainer{
  font-size: 0;
 }
-.nav{
 
+
+.nav-bar ul{
+    margin-bottom: 0px;
 }
 
 #nav li{
@@ -155,17 +142,14 @@ header{
 }
 
 /* ----------footer----------*/
-footer{
-    bottom: 0;
-    position: absolute;
-}
+
+
 
 .footer-bar{
     background-color: #2A3A3E;
-    min-height: 120px;
+    height: 120px;
 }
 .social-links{
-    height: 120px;
     padding: 0;
     text-align: center;
 
@@ -201,9 +185,6 @@ footer{
 .hc-block{
    }
 
-.sidebar{
-    height: 860px;
-}
 .sidebar-text h3{
     color: aliceblue;
     text-transform: uppercase;
@@ -236,6 +217,7 @@ footer{
     color: aliceblue;
     text-transform: uppercase;
     text-align: center;
+    padding-top: 40px;
 }
 
 .form-text{
@@ -243,28 +225,28 @@ footer{
     text-transform: uppercase;
     text-align: center;
 }
+.form-container{
+    padding: 20px 20px;
+}
 
+form label{
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+}
 
+.form-button{
+    margin: 20px 0;
+    color: aliceblue;
+    background-color: rgba(216, 70, 76, 0.99);
+}
 
 /* ----------media queries----------*/
-@media only screen and (max-width: 1024px) {
-    .hc-block {
-      padding-top: 120px;
-    }
-    .body{
-        position: relative;
-        height: 1000px;
-    }
-    .sidebar, .content-block{
-        height: 660px;}
+@media only screen and (max-width: 1024px) {.hero-image{
+    max-height: 240px;}
 }
 
 @media only screen and (max-width: 767px) {
-    .hc-block {
-        padding-top: 480px;
-    }
-    .body{
-        position: relative;
-        height: 2335px;
-    }
-    .content-block{}
+
+}
+

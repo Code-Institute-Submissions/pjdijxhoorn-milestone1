@@ -66,11 +66,24 @@
 <section class="container-fluid g-0">
     <div class="row g-0 hc-block content-block-contact content-block">
                 <div class="col">
-                    <h3 class="form-heading">Want to contact me?</h3>
+                    <h3 class="form-heading">Want to work with me?</h3>
                     <h5 class="form-text">Fill in the form so we can work together! </h5>
-
+                    <div class="form-container">
+                    <form class="center-form form-style">
+                        <label for="fullname">Name</label>
+                        <input  class="form-control" type="text" name="name" id="fullname" placeholder="name" required/>
+                        <label for="emailaddress">Email</label>
+                        <input class="form-control" type="email" name="email" id="emailaddress" placeholder="Email" required/>
+                        <label for="projectsummary">Description of your project.</label>
+                        <textarea class="form-control" rows="14" name="projectsummary" id="projectsummary" style="resize: none;"
+                                  placeholder="Describe your project here. please be as detailed as you can be." required>
+                        </textarea>
+                        <div class="button-container">
+                        <input class="form-button" type="submit" value="Submit Project Request">
+                        </div>
+                    </form>
                 </div>
-
+                </div>
 
     </div>
 </section>
