@@ -40,14 +40,33 @@
     background-color: rgba(226,124,63,0.9);
 }
 .menu-color-contact{
-    background-color: rgb(216, 70, 76);
+    background-color: rgb(49,168,255);
 }
 .content-block-contact{
-    background-color: rgba(216, 70, 76, 0.9);
+    background-color: rgba(49,168,255,0.9);
 }
 
 .menu-color-download{
-    background-color: #2BA2DC;
+    background-color: rgb(216, 70, 76);;
+
+}
+.bg-bar-html{
+    background-color: #0d6efd;
+}
+.bg-bar-css{
+    background-color: #6f42c1;
+}
+.bg-bar-bootstrap{
+    background-color: #dc3545;
+}
+.bg-bar-java{
+    background-color: #ffc107;
+}
+.bg-bar-python{
+    background-color: #198754;
+}
+.bg-bar-sql{
+    background-color: #0dcaf0;
 }
 /* ----------styling----------*/
 
@@ -147,7 +166,7 @@
 
 .footer-bar{
     background-color: #2A3A3E;
-    height: 120px;
+    min-height: 120px;
 }
 .social-links{
     padding: 0;
@@ -205,23 +224,32 @@
 
 
 /* ----------content-block----------*/
-.content-block h3, p{
+.content-block h3{
     color: aliceblue;
     padding-top: 20px;
 }
 
 .row{
     --bs-gutter-x: 0;}
-/* ----------content-form----------*/
-.form-heading{
+
+.text-content-block{
     color: aliceblue;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+
+
+}
+/* ----------content-form----------*/
+
+.form-heading{
+    color: black;
     text-transform: uppercase;
     text-align: center;
     padding-top: 40px;
 }
 
 .form-text{
-    color: aliceblue;
+    color: black;
     text-transform: uppercase;
     text-align: center;
 }
@@ -232,15 +260,22 @@
 form label{
     text-align: center;
     text-transform: uppercase;
-    color: aliceblue;
+    color: black;
 }
 
 .form-button{
     margin: 20px 0;
-    color: aliceblue;
-    background-color: rgba(216, 70, 76, 0.99);
+    color: black;
+    background-color: #355969;
+    text-transform: uppercase;
 }
 /* ----------skills----------*/
+
+.content-block-resume p, h3, h5{
+    color: #000000;
+    padding-top: 20px;
+
+}
 .progress-bar-container{
     padding: 20px 20px;
 }
@@ -257,8 +292,19 @@ form label{
     padding: 5px 30px 5px 10px;
     color: aliceblue;
     background-color: rgba(25,25,25,0.2);
-}
 
+}
+.skills-heading{
+
+}
+.resume-icon{
+    font-size: 26px;
+    color: #e67e22;
+    padding: 0 15px;
+}
+.front-back-end-text{
+    padding: 0 15px 0 30px;
+}
 /* ----------media queries----------*/
 @media only screen and (max-width: 1024px){
     .hero-image{ height: 240px}
@@ -270,3 +316,5 @@ form label{
 
 
 .carousel{ padding: 20px 20px}
+
+
