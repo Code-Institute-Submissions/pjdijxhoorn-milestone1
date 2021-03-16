@@ -160,6 +160,18 @@
     height: 120px;
 }
 
+.zoom {
+    padding: 50px;
+    transition: transform .5s;
+    margin: 0 auto;
+
+}
+.zoom:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
 /* ----------footer----------*/
 
 
@@ -294,9 +306,6 @@ form label{
     background-color: rgba(25,25,25,0.2);
 
 }
-.skills-heading{
-
-}
 .resume-icon{
     font-size: 26px;
     color: #e67e22;
@@ -305,7 +314,23 @@ form label{
 .front-back-end-text{
     padding: 0 15px 0 30px;
 }
+/* ---------- projects----------*/
+
+.collage-block{
+    padding: 5px;
+}
+.project-img{
+    display: block;
+    width: 100%;}
+
+.carousel{
+    padding: 20px 20px}
+
+/* ---------- work history----------*/
+
+
 /* ----------media queries----------*/
+
 @media only screen and (max-width: 1024px){
     .hero-image{ height: 240px}
 }
@@ -315,6 +340,6 @@ form label{
 }
 
 
-.carousel{ padding: 20px 20px}
+
 
 
