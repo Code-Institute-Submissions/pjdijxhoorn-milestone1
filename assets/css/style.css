@@ -398,10 +398,10 @@ form label{
 #history-explain-block-5{
     display: none;
 }
+
 .work-photo{
-    height: 500px;
-    max-width: 500px;
-    padding: 20px 0 20px 60px;
+    max-width: 350px;
+    padding: 20px 0 20px 20px;
 
 }
 .history-text-block{
@@ -422,13 +422,10 @@ form label{
     .hero-image{
         height: 400px;
     }
-    .work-photo{
-        max-height: 500px;
-        max-width: 500px;
-        padding: 20px 0 20px 20px;
+
 
     }
-}
+
 
 
 
