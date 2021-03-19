@@ -248,7 +248,7 @@ body{ font-family: "Rubik", sans-serif}
 
 .text-content-block{
     color: aliceblue;
-    padding: 20px 20px 0px 20px;
+    padding: 20px 20px 0 20px;
     text-align: center;
 }
 
@@ -340,7 +340,7 @@ form label{
 }
 
 .timeline-item {
-    padding: 4em 2em 0em 2em;
+    padding: 4em 2em 0 2em;
     position: relative;
     color: black;
     border-left: 5px solid;
@@ -403,7 +403,7 @@ form label{
 }
 .work-photo{
     height: 500px;
-    padding: 20px 0px 20px 120px;
+    padding: 20px 0 20px 120px;
 }
 .history-text-block{
     border-style: solid;
