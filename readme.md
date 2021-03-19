@@ -1,8 +1,11 @@
 <h1 align="center">Paul's Portfolio website</h1>
 
-[View the live project here.]( input website)
+<h4 align="center">[View the live project here.]( input website)</h4>
 
-This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
+This is my portfolio website. 
+The site is responsive so it is made to be viewed with ease on phone, tablet, 
+and desktop. 
+This so that future employers and clients can visit my website without any problems.
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
@@ -13,42 +16,43 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        1. As a First Time Visitor, I want to know more about Paul Dijxhoorn.
+        2. As a First Time Visitor, I want to have no trouble finding all information therefor I want a clear cut navagation.
+        3. As a First Time Visitor, I want to know what others think of Paul.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        1. As a Returning Visitor, I want to be able to contact Paul for a job or projects to work on.
+        2. As a Returning Visitor, I want to know more of Pauls work history.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. As a Frequent User, I want to see what the progress of Paul is of his course.
+        2. As a Frequent User, I want to see what new projects Paul has created.
+        3. As a Frequent User, I want to see how the site will be improved.
+       
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   There are six colours used on this website. Each of the six colours corresponds to a specific area of the website.
+            With lighter colour variations to distinguish between menu buttons, and the content areas. 
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Font-family used on the website is "Rubik" this is a modern and easy to read font. As back-up in the case Rubik fails there is sans-serif.   
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   The hero image is displayed in a prominent place on all device sizes to catch the attention of user's. 
+            Mostly on the left of the screen because most users read from left to right.
+            Furthermore, it is block-shaped to match the esthetics of the rest of the site
+        
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
-
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
-
+    -  Wireframe for Pauls Portfolio - [View](assets/wireframes/Wireframe milestone project..pdf)
+    
 ## Features
 
--   Responsive on all device sizes
-
--   Interactive elements
+-   Big buttons so it is easy to navigate even on mobile devices.
+-   The colors of the navbar-buttons are matching the corresponding content blocks to give a visual conformation to the users.
+-   The buttons on the site are interactive to give the users visual conformation.
+-   the timeline has a mouseover effect for additional information.
 
 ## Technologies Used
 
@@ -56,34 +60,33 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Bootstrap 5.0.x:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+    - Bootstrap was used to create the rows and columns and to make the website more responsive.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    - Hover.css was used for all the menu buttons, the project photo's and the social links.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts was used to get the 'Rubik' font into the style.css file. 'Rubik' is used troughout the whole website.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Font Awesome was used for all the menu-bar icons and all the social links of this website.
 1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+    - GitHub was used to store all the code and the code was pushed from Webstorm.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to make the [wireframes](assets/wireframes/Wireframe milestone project..pdf) during the design process.
+1. [Webstorm:](https://www.jetbrains.com/webstorm/)
+    -  Webstorm was used as codeing editor.
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+Webstorm has a build-in code validator, So the code was checked at the moment it was written.
+However, the code was also tested using the W3C Markup Validator and W3C CSS Validator Services, 
+to make sure that there weren't any syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/validation/validation html.PNG)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/validation/css validation.PNG)
 
 ### Testing User Stories from User Experience (UX) Section
 
