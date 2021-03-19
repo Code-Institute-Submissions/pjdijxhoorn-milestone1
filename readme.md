@@ -204,7 +204,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   [Bootstrap5.0.x](https://getbootstrap.com/docs/5.0/getting-started/introduction/): 
+-   [Bootstrap 5.0.x](https://getbootstrap.com/docs/5.0/getting-started/introduction/): 
     The Bootstrap Library was used for the responsiveness of their grid system. 
     some bootstrap was also used for the progress bars of the skills page.
 

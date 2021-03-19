@@ -279,11 +279,8 @@ form label{
     color: black;
 }
 
-.form-button{
-    margin: 20px 0;
-    color: white;
-    background-color: #192758;
-    text-transform: uppercase;
+.button-container{
+    padding-top: 20px;
 }
 /* ----------skills----------*/
 
@@ -426,7 +423,7 @@ form label{
         height: 400px;
     }
     .work-photo{
-        height: 500px;
+        max-height: 500px;
         max-width: 500px;
         padding: 20px 0 20px 20px;
 
