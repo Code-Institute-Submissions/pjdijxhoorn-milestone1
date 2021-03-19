@@ -1,7 +1,9 @@
 
 
 /* ----------font----------*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
+body{ font-family: "Rubik", Roboto}
 /* ----------colors----------*/
 .sitename-color{
     background-color:#2A3A3E;
@@ -74,14 +76,27 @@
     text-transform: uppercase;
 }
 .center{
+    text-align: center;}
+
+/* ----------top-bar----------*/
+
+.sitename{
     text-align: center;
+    height: 100px;
 }
+.sitename h1{
+    letter-spacing: 2px;
+    color: aliceblue;
+    padding-top: 20px;
+}
+
 
 /* ----------hero-image----------*/
 
+
 .hero-image-container {
-    background-color: #123;
 }
+
 
 
 .hero-image2{
@@ -91,14 +106,7 @@
 }
 
 /* ----------Nav-bar----------*/
-.sitename{
-    text-align: center;
-    height: 100px;
-}
-.sitename h1{
-    letter-spacing: 2px;
-    color: aliceblue;
-}
+
 
 .list-inline-item:not(:last-child){
     margin: 0;
@@ -342,7 +350,9 @@ form label{
     border-left: 5px solid;
 }
 .timeline-block{
-    background: #CE7838;
+    background: #192758;
+    border: 1px solid black;
+    color: aliceblue;
 }
 
 .timeline-item p {
@@ -360,7 +370,7 @@ form label{
     font-size: 0.8em;
     padding: 0;
     margin: 0;
-    background: #CE7838;
+    color: #000000;
     text-transform: uppercase;
 }
 
@@ -373,19 +383,50 @@ form label{
     left: -14px;
     border-radius: 24px;
     content: '';
-    background: #9E4844;
+    background: #192758;
+    border: 1px solid black;
 }
 
 .history-items {
     margin-bottom: 30px;}
 
+#history-explain-block-1{
+    display: none;
+}
+#history-explain-block-2{
+    display: none;
+}
+#history-explain-block-3{
+    display: none;
+}
+#history-explain-block-4{
+    display: none;
+}
+#history-explain-block-5{
+    display: none;
+}
+.work-photo{
+    height: 500px;
+    padding: 20px 0px 20px 120px;
+}
+.history-text-block{
+    border-style: solid;
+    font-size: 20px;
+}
+
+
 /* ----------media queries----------*/
 
 @media only screen and (max-width: 1024px){
-    .hero-image{ height: 240px}
+    .hero-image{
+        height: 240px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
+    .hero-image{
+        height: 400px;
+    }
 
 }
 
