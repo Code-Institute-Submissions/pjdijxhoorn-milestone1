@@ -1,6 +1,6 @@
 <h1 align="center">Paul's Portfolio website</h1>
 
-[View the live project here.](https://pjdijxhoorn.github.io/milestone1/)
+<h5 align="center" >[View the live project here.](https://pjdijxhoorn.github.io/milestone1/) <h5>
 
 This is my portfolio website. 
 The site is responsive, so it is made to be viewed with ease on phone, tablet, 
@@ -86,8 +86,12 @@ to make sure that there weren't any syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 <img src="assets/validation/validation html.PNG">
+    
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 <img src="assets/validation/css validation.PNG">
+    
+
+
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
@@ -145,7 +149,7 @@ to make sure that there weren't any syntax errors in the project.
 
 ### Known Bugs
 
--   The description field of the contact form has white several white spaces and the placeholder doesn't show unless you remove the whitespaces.
+-   The description field of the contact form has white several white spaces, and the placeholder doesn't show unless you remove the whitespaces.
 
 
 ## Deployment
@@ -200,17 +204,15 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   [Bootstrap5.0.x](https://getbootstrap.com/docs/5.0/getting-started/introduction/): 
+    The Bootstrap Library was used for the responsiveness of their grid system. 
+    some bootstrap was also used for the progress bars of the skills page.
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   The mini project with bootstrap from Code Institute was inspiration for the timeline and progress bar. 
 
 ### Content
 
 -   All content was written by the developer.
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media
 
@@ -219,5 +221,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
-
--   Tutor support at Code Institute for their support.
+-   My Brother for the advice about the javascript part.
