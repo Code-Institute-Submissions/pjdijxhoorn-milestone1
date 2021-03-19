@@ -1,13 +1,13 @@
 <h1 align="center">Paul's Portfolio website</h1>
 
-<h4 align="center">[View the live project here.]( input website)</h4>
+[View the live project here.](https://pjdijxhoorn.github.io/milestone1/)
 
 This is my portfolio website. 
 The site is responsive so it is made to be viewed with ease on phone, tablet, 
 and desktop. 
 This so that future employers and clients can visit my website without any problems.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="assets/validation/Responsiveness.png" ></h2>
 
 
 ## User Experience (UX)
@@ -17,7 +17,7 @@ This so that future employers and clients can visit my website without any probl
     -   #### First Time Visitor Goals
 
         1. As a First Time Visitor, I want to know more about Paul Dijxhoorn.
-        2. As a First Time Visitor, I want to have no trouble finding all information therefor I want a clear cut navagation.
+        2. As a First Time Visitor, I want to have no trouble finding all information therefore I want a clear cut navigation.
         3. As a First Time Visitor, I want to know what others think of Paul.
 
     -   #### Returning Visitor Goals
@@ -28,7 +28,6 @@ This so that future employers and clients can visit my website without any probl
     -   #### Frequent User Goals
         1. As a Frequent User, I want to see what the progress of Paul is of his course.
         2. As a Frequent User, I want to see what new projects Paul has created.
-        3. As a Frequent User, I want to see how the site will be improved.
        
 
 -   ### Design
@@ -69,7 +68,7 @@ This so that future employers and clients can visit my website without any probl
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used for all the menu buttons, the project photo's and the social links.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts was used to get the 'Rubik' font into the style.css file. 'Rubik' is used troughout the whole website.
+    - Google fonts was used to get the 'Rubik' font into the style.css file. 'Rubik' is used throughout the whole website.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used for all the menu-bar icons and all the social links of this website.
 1. [GitHub:](https://github.com/)
@@ -77,7 +76,7 @@ This so that future employers and clients can visit my website without any probl
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to make the [wireframes](assets/wireframes/Wireframe milestone project..pdf) during the design process.
 1. [Webstorm:](https://www.jetbrains.com/webstorm/)
-    -  Webstorm was used as codeing editor.
+    -  Webstorm was used as coding editor.
 
 ## Testing
 
@@ -91,71 +90,62 @@ to make sure that there weren't any syntax errors in the project.
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
+    1. As a First Time Visitor, I want to know more about Paul Dijxhoorn.
+    
+        1. On the first page you get to see the navigation bar, the side bar with hero image, and the about me section. all providing basic information.
+        2. From the homepage you have 4 navigation buttons to get to more specific info SKILLS, WORK-HISTORY, PROJECTS, DOWNLOAD.
+        3. At the bottom of the about me there is another link to the CV.
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    2. As a First Time Visitor, I want to have no trouble finding all information therefore I want a clear cut navigation.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+        1. All the pages have a clear Navigation-bar. the colors of the bar are matching the content blocks of said pages to ensure that users know where the are. 
+        2. All external links are openend in new windows to ensure that users do not lose the site. 
+        3. There are 4 buttons to social network sites in the footer of every page.
 
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+    3. As a First Time Visitor, I want to know what others think of Paul.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+        1. In the footer of all the pages there are four icons linking to Twitter, Facebook,Instagram and LinkedIn.
+        2. On the Work history page there are letters of recommendation matched to the jobs the belong to.
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+    1. As a Returning Visitor, I want to be able to contact Paul for a job or projects to work on.
 
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
+        1. On the navigation bar you can see the contact button. .
+        2. Here there is a form to come in contact.
+        3. In the footer there are links to Twitter, Facebook, Instagram and LinkedIn.
+        4. On the homepage and skill page You can find the address, number and mail of Paul.
 
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+    2. As a Returning Visitor, I want to know more of Pauls work history and projects.
 
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+        1. The work history page is easy to find on the navigation bar.
+        2. Here you can find  the work history and recommendations.
+        3. The Projects button is clearly visible on the navigation bar.
+        4. On the project page you can see the images straight away.
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+    1. As a Frequent User, I want to see what the progress of Paul is of his course.
 
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
+        1. The User knows the site and that the skill progress bars with description can be found on the skills page. 
 
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
+    2. As a Frequent User, I want to see what new projects Paul has created.
 
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+        1. The user Knows how to find the projects page already.
+        2. New projects will be placed at the top of the content block.
+    
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   The website was tested on Google Chrome, Microsoft Edge .
+-   The website was tested with a android phone, a desktop, a laptop and an ipad. The pages were tested vigorously to make sure that all the links were working and that 
+-   The pages were tested vigorously to make sure that all the links were working and that external links were openend in new tabs.
+
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   The description field of the contact form has white several white spaces and the placeholder doesn't show unless you remove the whitespaces.
+
 
 ## Deployment
 
