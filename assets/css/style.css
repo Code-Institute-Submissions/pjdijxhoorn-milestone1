@@ -403,7 +403,9 @@ form label{
 }
 .work-photo{
     height: 500px;
-    padding: 20px 0 20px 120px;
+    max-width: 500px;
+    padding: 20px 0 20px 60px;
+
 }
 .history-text-block{
     border-style: solid;
@@ -423,7 +425,12 @@ form label{
     .hero-image{
         height: 400px;
     }
+    .work-photo{
+        height: 500px;
+        max-width: 500px;
+        padding: 20px 0 20px 20px;
 
+    }
 }
 
 

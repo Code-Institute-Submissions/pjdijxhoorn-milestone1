@@ -1,6 +1,6 @@
 <h1 align="center">Paul's Portfolio website</h1>
 
-<h5 align="center" >[View the live project here.](https://pjdijxhoorn.github.io/milestone1/) <h5>
+[View the live project here.](https://pjdijxhoorn.github.io/milestone1/) 
 
 This is my portfolio website. 
 The site is responsive, so it is made to be viewed with ease on phone, tablet, 
