@@ -3,7 +3,7 @@
 [View the live project here.](https://pjdijxhoorn.github.io/milestone1/)
 
 This is my portfolio website. 
-The site is responsive so it is made to be viewed with ease on phone, tablet, 
+The site is responsive, so it is made to be viewed with ease on phone, tablet, 
 and desktop. 
 This so that future employers and clients can visit my website without any problems.
 
@@ -48,7 +48,7 @@ This so that future employers and clients can visit my website without any probl
     
 ## Features
 
--   Big buttons so it is easy to navigate even on mobile devices.
+-   Big buttons, so it is easy to navigate even on mobile devices.
 -   The colors of the navbar-buttons are matching the corresponding content blocks to give a visual conformation to the users.
 -   The buttons on the site are interactive to give the users visual conformation.
 -   the timeline has a mouseover effect for additional information.
@@ -84,9 +84,10 @@ Webstorm has a build-in code validator, So the code was checked at the moment it
 However, the code was also tested using the W3C Markup Validator and W3C CSS Validator Services, 
 to make sure that there weren't any syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/validation/validation html.PNG)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/validation/css validation.PNG)
-
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+<img src="assets/validation/validation html.PNG">
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+<img src="assets/validation/css validation.PNG">
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
