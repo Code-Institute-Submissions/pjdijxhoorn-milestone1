@@ -2,10 +2,15 @@
 
 [View the live project here.](https://pjdijxhoorn.github.io/milestone1/) 
 
-This is my portfolio website. 
-The site is responsive, so it is made to be viewed with ease on phone, tablet, 
+This is my portfolio website. The goal of this website is  that potential future 
+employees and clients can easily get an insight in my skills via my skill, work history, 
+project and CV pages. The site is responsive, so it is made to be viewed with ease on a phone, tablet, 
 and desktop. 
 This so that future employers and clients can visit my website without any problems.
+
+
+
+
 
 <h2 align="center"><img src="assets/validation/Responsiveness.png" ></h2>
 
@@ -18,7 +23,7 @@ This so that future employers and clients can visit my website without any probl
 
         1. As a First Time Visitor, I want to know more about Paul Dijxhoorn.
         2. As a First Time Visitor, I want to have no trouble finding all information therefore I want a clear cut navigation.
-        3. As a First Time Visitor, I want to know what others think of Paul.
+        3. As a First Time Visitor, I want to know what others think of Paul trough they work history tab to find recommendations.
 
     -   #### Returning Visitor Goals
 
@@ -32,8 +37,11 @@ This so that future employers and clients can visit my website without any probl
 
 -   ### Design
     -   #### Colour Scheme
-        -   There are six colours used on this website. Each of the six colours corresponds to a specific area of the website.
-            With lighter colour variations to distinguish between menu buttons, and the content areas. 
+        -   Within this websites There are seven colours used.
+            Each of the six colours corresponds to a specific area of the website.
+           lightpink: #ffe4e6
+            With lighter colour variations to distinguish between menu buttons, and the content areas.
+            
     -   #### Typography
         -   The Font-family used on the website is "Rubik" this is a modern and easy to read font. As back-up in the case Rubik fails there is sans-serif.   
     -   #### Imagery
@@ -48,10 +56,19 @@ This so that future employers and clients can visit my website without any probl
     
 ## Features
 
+###general
+
 -   Big buttons, so it is easy to navigate even on mobile devices.
 -   The colors of the navbar-buttons are matching the corresponding content blocks to give a visual conformation to the users.
 -   The buttons on the site are interactive to give the users visual conformation.
 -   the timeline has a mouseover effect for additional information.
+
+###home
+###skills
+###work history
+###projects
+###contact
+###download
 
 ## Technologies Used
 
@@ -84,7 +101,7 @@ Webstorm has a build-in code validator, So the code was checked at the moment it
 However, the code was also tested using the W3C Markup Validator and W3C CSS Validator Services, 
 to make sure that there weren't any syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-   [W3C Markup Validator](https://validator.w3.org/) 
 <img src="assets/validation/validation html.PNG">
     
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 

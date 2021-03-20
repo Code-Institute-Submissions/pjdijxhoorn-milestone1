@@ -52,6 +52,10 @@ body{ font-family: "Rubik", sans-serif}
     background-color: rgb(216, 70, 76);;
 
 }
+.ty-background-color{
+    background-color: rgba(49,168,255,0.9);
+}
+
 .bg-bar-html{
     background-color: #0d6efd;
 }
@@ -282,6 +286,20 @@ form label{
 .button-container{
     padding-top: 20px;
 }
+/* ----------ty page----------*/
+.ty-content-block{
+    height: 600px;
+}
+
+.ty-content-block p{
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.ty-content-block h1{
+    padding-top: 150px;
+}
+
 /* ----------skills----------*/
 
 .content-block-resume p, h3, h5{
