@@ -125,7 +125,7 @@ However, the code was also tested using the W3C Markup Validator and W3C CSS Val
 to make sure that there weren't any syntax errors in the project.
 
 -   [W3C Markup Validator](https://validator.w3.org/) 
-<img src="assets/validation/validation html.PNG">
+<img src="assets/validation/validatoin html.PNG">
     
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 <img src="assets/validation/css validation.PNG">
