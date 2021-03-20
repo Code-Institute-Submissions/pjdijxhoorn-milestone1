@@ -1,5 +1,3 @@
-
-
 /* ----------font----------*/
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
@@ -12,6 +10,7 @@ body{ font-family: "Rubik", sans-serif}
 .menu-color-home{
     background-color: rgb(58,100,93);
 }
+
 .sidebar-color{
     background-color: #112233;
 }
@@ -21,7 +20,8 @@ body{ font-family: "Rubik", sans-serif}
 }
 
 .menu-color-resume{
-    background-color: rgb(179,215,122);}
+    background-color: rgb(179,215,122);
+}
 
 .content-block-resume{
     background-color: rgba(179,215,122,0.9);
@@ -30,6 +30,7 @@ body{ font-family: "Rubik", sans-serif}
 .menu-color-work{
     background-color: rgb(245,205,77);
 }
+
 .content-block-work{
     background-color: rgba(245,205,77,0.9);
 }
@@ -41,36 +42,44 @@ body{ font-family: "Rubik", sans-serif}
 .content-block-projects{
     background-color: rgba(226,124,63,0.9);
 }
+
 .menu-color-contact{
     background-color: rgb(49,168,255);
 }
+
 .content-block-contact{
     background-color: rgba(49,168,255,0.9);
 }
 
 .menu-color-download{
-    background-color: rgb(216, 70, 76);;
-
+    background-color: rgb(216, 70, 76);
 }
+
 .ty-background-color{
     background-color: rgba(49,168,255,0.9);
 }
 
+/* ----------colors progressbar----------*/
 .bg-bar-html{
     background-color: #0d6efd;
 }
+
 .bg-bar-css{
     background-color: #6f42c1;
 }
+
 .bg-bar-bootstrap{
     background-color: #dc3545;
 }
+
 .bg-bar-java{
     background-color: #ffc107;
 }
+
 .bg-bar-python{
     background-color: #198754;
 }
+
 .bg-bar-sql{
     background-color: #0dcaf0;
 }
@@ -104,7 +113,6 @@ body{ font-family: "Rubik", sans-serif}
 }
 
 /* ----------Nav-bar----------*/
-
 
 .list-inline-item:not(:last-child){
     margin: 0;
@@ -170,8 +178,8 @@ body{ font-family: "Rubik", sans-serif}
     padding: 50px;
     transition: transform .5s;
     margin: 0 auto;
-
 }
+
 .zoom:hover {
     -ms-transform: scale(1.05);
     -webkit-transform: scale(1.05);
@@ -186,11 +194,12 @@ body{ font-family: "Rubik", sans-serif}
     background-color: #2A3A3E;
     min-height: 120px;
 }
+
 .social-links{
     padding: 0;
     text-align: center;
-
 }
+
 .social-links li a i{
     width: 45px;
     height: 45px;
@@ -207,6 +216,7 @@ body{ font-family: "Rubik", sans-serif}
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
+
 .social-links li a i:hover {
     background: #e84610;
 }
@@ -218,28 +228,23 @@ body{ font-family: "Rubik", sans-serif}
     letter-spacing: 2px;
 }
 /* ----------sidebar----------*/
-
-.hc-block{
-   }
-
 .sidebar-text h3{
     color: aliceblue;
     text-transform: uppercase;
     padding-bottom: 20px;
     padding-left: 20px;
 }
- .sidebar-text h5{
+
+.sidebar-text h5{
      color: aliceblue;
      font-weight: bold;
      padding: 0 20px;
-
  }
+
 .sidebar-text p{
     color: aliceblue;
     padding:0 20px 20px 20px;
-
 }
-
 
 /* ----------content-block----------*/
 .content-block h3{
@@ -248,7 +253,8 @@ body{ font-family: "Rubik", sans-serif}
 }
 
 .row{
-    --bs-gutter-x: 0;}
+    --bs-gutter-x: 0;
+}
 
 .text-content-block{
     color: aliceblue;
@@ -273,6 +279,7 @@ body{ font-family: "Rubik", sans-serif}
     text-transform: uppercase;
     text-align: center;
 }
+
 .form-container{
     padding: 20px 20px;
 }
@@ -296,6 +303,7 @@ form label{
     font-size: 30px;
     padding-top: 30px;
 }
+
 .ty-content-block h1{
     padding-top: 150px;
 }
@@ -305,7 +313,6 @@ form label{
 .content-block-resume p, h3, h5{
     color: #000000;
     padding-top: 20px;
-
 }
 .progress-bar-container{
     padding: 20px 20px;
@@ -323,13 +330,14 @@ form label{
     padding: 5px 30px 5px 10px;
     color: aliceblue;
     background-color: rgba(25,25,25,0.2);
-
 }
+
 .resume-icon{
     font-size: 26px;
     color: #e67e22;
     padding: 0 15px;
 }
+
 .front-back-end-text{
     padding: 0 15px 0 30px;
 }
@@ -340,16 +348,19 @@ form label{
 }
 .project-img{
     display: block;
-    width: 100%;}
+    width: 100%;
+}
 
 .carousel{
-    padding: 20px 20px}
+    padding: 20px 20px
+}
 
 /* ---------- work history----------*/
 .history-heading {
     color: black;
     margin-bottom: 50px;
 }
+
 .section-column{
     padding-left: 20px;
 }
@@ -360,6 +371,7 @@ form label{
     color: black;
     border-left: 5px solid;
 }
+
 .timeline-block{
     background: #192758;
     border: 1px solid black;
@@ -399,20 +411,25 @@ form label{
 }
 
 .history-items {
-    margin-bottom: 30px;}
+    margin-bottom: 30px;
+}
 
 #history-explain-block-1{
     display: none;
 }
+
 #history-explain-block-2{
     display: none;
 }
+
 #history-explain-block-3{
     display: none;
 }
+
 #history-explain-block-4{
     display: none;
 }
+
 #history-explain-block-5{
     display: none;
 }
@@ -423,8 +440,8 @@ form label{
     margin-right: auto;
     width: 70%;
     padding-top: 20px;
-
 }
+
 .history-text-block{
     border-style: solid;
     font-size: 20px;
@@ -445,7 +462,7 @@ form label{
     .hero-image{
         height: 400px;
     }
-    }
+}
 
 @media only screen and (min-width: 1024px ){
  .content-block-home p{

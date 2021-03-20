@@ -40,20 +40,20 @@ and desktop.
             
         The 6 colors of the Menu corresponds to a specific area of the website.
         With lighter colour variations to distinguish between menu buttons, and the content areas.
-        to make sure the site was usable for colorblind people the colors were tested with
-        https://contrastchecker.com/ 
+        To make sure the site was usable for colorblind people the colors were tested with
+        https://contrastchecker.com/. 
         
         The color test - [View](assets/validation/my-wcag-color-samples.pdf)
     
         Aliceblue and black were used as text colors based on the visibility of the contrast checker.
-        with exception of the menubar where only aliceblue was used to maintain an even color scheme.
+        With exception of the menu bar where only aliceblue was used to maintain an even color scheme.
         
     -   #### Typography
         -   The Font-family used on the website is "Rubik" this is a modern and easy to read font. As back-up in the case Rubik fails there is sans-serif.   
     -   #### Imagery
         -   The hero image is displayed in a prominent place on all device sizes to catch the attention of user's. 
             Mostly on the left of the screen because most users read from left to right.
-            Furthermore, it is block-shaped to match the esthetics of the rest of the site
+            Furthermore, it is block-shaped to match the esthetics of the rest of the site.
         
 
 *   ### Wireframes
@@ -208,25 +208,24 @@ to make sure that there weren't any syntax errors in the project.
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+1. First sign in to GitHub and locate the [GitHub Repository](https://github.com/pjdijxhoorn/milestone1)
+2. Under the github logo left upper corner you have the repository name. Under that is menu bar. Here you click settings.
+3. On this new page you scroll down all the way untill you see "GitHub Pages" Section.
+4. After finding the  "GitHub Pages" Section you click the branch button under "source" instead of none you select "master".
+5. The page should refresh itself.
+6. After this Scroll down to "Github Pages" again here you should see the deployed site [link](https://pjdijxhoorn.github.io/milestone1/).
 
 ### Forking the GitHub Repository
+When you fork a repository on Github you make a copy of the original. By doing this you can view and make changes 
+without the original changing. you can fork the repository with these steps:
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
+1. Locate the  [GitHub Repository](https://github.com/pjdijxhoorn/milestone1) After you logged in.
+2. On the left top of the site you will find the fork button press it.
+3. This should provide you with a copy of the repository in your own github account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/pjdijxhoorn/milestone1)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
