@@ -418,13 +418,18 @@ form label{
 }
 
 .work-photo{
-    max-width: 350px;
-    padding: 20px 0 20px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 20px;
 
 }
 .history-text-block{
     border-style: solid;
     font-size: 20px;
+    margin: 20px;
+    padding: 5px;
 }
 
 
@@ -443,7 +448,18 @@ form label{
 
 
     }
-
+.block{
+    height: 150px;
+    width: 150px;
+    display: block;
+    padding: 20px;
+}
+.block p{
+    text-align: center;
+    padding-top: 40px;
+    text-transform: uppercase;
+    color: aliceblue;
+}
 
 
 

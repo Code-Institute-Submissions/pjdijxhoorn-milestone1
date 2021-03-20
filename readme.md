@@ -38,8 +38,8 @@ This so that future employers and clients can visit my website without any probl
 -   ### Design
     -   #### Colour Scheme
         -   Within this websites There are seven colours used.
+            <h2 align="center"><img src="assets/validation/colors.PNG" ></h2>
             Each of the six colours corresponds to a specific area of the website.
-           lightpink: #ffe4e6
             With lighter colour variations to distinguish between menu buttons, and the content areas.
             
     -   #### Typography
@@ -61,13 +61,17 @@ This so that future employers and clients can visit my website without any probl
 -   Big buttons, so it is easy to navigate even on mobile devices.
 -   The colors of the navbar-buttons are matching the corresponding content blocks to give a visual conformation to the users.
 -   The buttons on the site are interactive to give the users visual conformation.
--   the timeline has a mouseover effect for additional information.
+
 
 ###home
 ###skills
 ###work history
+-   the timeline has a mouseover effect for additional information.
 ###projects
 ###contact
+-   the contact page has a contact form. 
+    this form will not really send an email this is a feature that will be added in the future.
+    for now it leads to a thank-you page.
 ###download
 
 ## Technologies Used
@@ -161,7 +165,7 @@ to make sure that there weren't any syntax errors in the project.
 
 -   The website was tested on Google Chrome, Microsoft Edge .
 -   The website was tested with a android phone, a desktop, a laptop and an ipad. The pages were tested vigorously to make sure that all the links were working and that 
--   The pages were tested vigorously to make sure that all the links were working and that external links were openend in new tabs.
+-   The pages were tested vigorously to make sure that all the links were working and that external links were opened in new tabs.
 
 
 ### Known Bugs
