@@ -447,6 +447,15 @@ form label{
     }
     }
 
+@media only screen and (min-width: 1024px ){
+ .content-block-home p{
+ font-size: 25px;
+ }
+    .content-block-home h4{
+        font-size: 30px;
+    }
+}
+
 
 
 

@@ -4,13 +4,10 @@
 
 This is my portfolio website. The goal of this website is  that potential future 
 employees and clients can easily get an insight in my skills via my skill, work history, 
-project and CV pages. The site is responsive, so it is made to be viewed with ease on a phone, tablet, 
+project and CV pages. With the social links and letters of recommendation located  on the 
+work-history page the users can get to know about my personality and work ethics.  
+The site is responsive, so it is made to be viewed with ease on a phone, tablet, 
 and desktop. 
-This so that future employers and clients can visit my website without any problems.
-
-
-
-
 
 <h2 align="center"><img src="assets/validation/Responsiveness.png" ></h2>
 
@@ -37,11 +34,20 @@ This so that future employers and clients can visit my website without any probl
 
 -   ### Design
     -   #### Colour Scheme
-        -   Within this websites There are seven colours used.
-            <h2 align="center"><img src="assets/validation/colors.PNG" ></h2>
-            Each of the six colours corresponds to a specific area of the website.
-            With lighter colour variations to distinguish between menu buttons, and the content areas.
+        Within this website There are seven colours used.
+        
+        <h2 align="center"><img src="assets/validation/colors.PNG" ></h2>
             
+        The 6 colors of the Menu corresponds to a specific area of the website.
+        With lighter colour variations to distinguish between menu buttons, and the content areas.
+        to make sure the site was usable for colorblind people the colors were tested with
+        https://contrastchecker.com/ 
+        
+        The color test - [View](assets/validation/my-wcag-color-samples.pdf)
+    
+        Aliceblue and black were used as text colors based on the visibility of the contrast checker.
+        with exception of the menubar where only aliceblue was used to maintain an even color scheme.
+        
     -   #### Typography
         -   The Font-family used on the website is "Rubik" this is a modern and easy to read font. As back-up in the case Rubik fails there is sans-serif.   
     -   #### Imagery
@@ -58,21 +64,34 @@ This so that future employers and clients can visit my website without any probl
 
 ###general
 
--   Big buttons, so it is easy to navigate even on mobile devices.
+-   The navigation bar has big buttons, so it is easy to navigate even on mobile devices.
 -   The colors of the navbar-buttons are matching the corresponding content blocks to give a visual conformation to the users.
--   The buttons on the site are interactive to give the users visual conformation.
-
+-   The buttons on the site are interactive to give the users visual conformation. when they mouse over.
 
 ###home
+-   The about me has a call to action directing to the CV and contact page.
+
 ###skills
+-   The skills page has a progress bar for several skills which will be updated when Paul 
+    increases his skills.
+
 ###work history
--   the timeline has a mouseover effect for additional information.
+-   On the work history page is a timeline of Paul his work history.
+-   The Job blocks have a mouseover effect that display a new block 
+    which provides additional information. 
+    Here javascript was used to achieve this effect. 
+    This effect will be updated to more smooth animation when paul has finished his javascript part of the course.
+    
 ###projects
+-   The project page shows several assignments that were done by Paul these are just screenshots since none of them are life.
+    As more projects are build and come online these will be linked to the site.
+    
 ###contact
 -   the contact page has a contact form. 
     this form will not really send an email this is a feature that will be added in the future.
     for now it leads to a thank-you page.
 ###download
+-   the download button leads to a pdf file of the CV of Paul.
 
 ## Technologies Used
 
@@ -170,6 +189,16 @@ to make sure that there weren't any syntax errors in the project.
 
 ### Known Bugs
 
+-   The content blocks were overlapping the menu-bar on tablet and phone.   <ins>**fixed!**</ins>
+    
+    The header height and body absolute code made the content jump up.
+    Found after 2 days of frustration.
+    
+-   The hero images looks stretched on phone    <ins>**fixed!**</ins>
+    
+    The height in px and the width in % made it look stretched.
+-   The code validator flaged the comments      <ins>**fixed!**</ins>
+    Comments had 1 - to many.
 -   The description field of the contact form has white several white spaces, and the placeholder doesn't show unless you remove the whitespaces.
 
 
