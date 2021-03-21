@@ -257,7 +257,8 @@ This [page](https://help.github.com/en/github/creating-cloning-and-archiving-rep
     The Bootstrap Library was used for the responsiveness of their grid system. 
     Some bootstrap was also used for the progress bars of the skills page.
 
--   The mini project with bootstrap from Code Institute was inspiration for the timeline and progress bar. 
+-   The mini project with bootstrap from Code Institute was inspiration for the timeline, menu-buttons and progress bar.
+    The code of these videos lessons was used to create the current timeline, menu-buttons and progress bars.
 
 ### Content
 
